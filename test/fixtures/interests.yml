@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  personal: MyText
+  professional: MyString
+  amin: one
+
+two:
+  personal: MyText
+  professional: MyString
+  amin: two
