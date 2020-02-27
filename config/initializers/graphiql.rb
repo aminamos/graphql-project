@@ -1,11 +1,16 @@
 GraphiQL::Rails.config.title = 'Amin\'s GraphQL Example'
 query_string = 
-"query {
+"# Click the \"play\" button above to submit
+# the following query, and learn a little
+# about me!
+
+{
   amin {
     github
     linkedin
     twitter
     interests {
+      personal
       professional
     }
   }
