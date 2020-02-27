@@ -19,7 +19,7 @@ The structure and content of the data primarily serves as a condensed version of
 }
 ```
 
-More about GraphQL queries may be found here: https://graphql.org/learn/queries/
+I found a way to make that show when the page is loaded, but if any changes are made to the query, this will help show the initial results. More about GraphQL queries may be found here: https://graphql.org/learn/queries/
 
 Bash commands that helped build the project:
 
