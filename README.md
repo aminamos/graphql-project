@@ -1,7 +1,7 @@
 # Amin Amos's GraphQL Project
 
 ## Description
-I created this to practice and learn [GraphQL](https://graphql.org/). I started building APIs using REST principles and this was an interesting way to explore something different. The data isn't too complicated, and I would assert that it isn't structured in a way that makes architectural sense either.
+I created this to practice and learn [GraphQL](https://graphql.org/). I started my development journey with building REST APIs and this was an interesting way to explore something different. The data isn't too complicated, and I would assert that it isn't structured in a way that makes architectural sense either.
 
 The structure and content of the data primarily serves as a condensed version of my resume, along with a couple links to social profiles. Run this query to see all data:
 
