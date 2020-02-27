@@ -12,6 +12,10 @@
 
 ActiveRecord::Schema.define(version: 2020_02_26_234455) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "hstore"
+  enable_extension "plpgsql"
+
   create_table "amins", force: :cascade do |t|
     t.string "github"
     t.string "linkedin"
@@ -23,10 +27,11 @@ ActiveRecord::Schema.define(version: 2020_02_26_234455) do
   create_table "interests", force: :cascade do |t|
     t.text "personal"
     t.string "professional"
-    t.integer "amin_id"
+    t.bigint "amin_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["amin_id"], name: "index_interests_on_amin_id"
   end
 
+  add_foreign_key "interests", "amins"
 end
